@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ie.atu</groupId>
-    <artifactId>Week11Example</artifactId>
+    <artifactId>Payment</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Week11Example</name>
-    <description>Week11Example</description>
+    <description>Payment</description>
     <properties>
         <java.version>17</java.version>
     </properties>
