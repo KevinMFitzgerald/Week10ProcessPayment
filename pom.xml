@@ -5,43 +5,32 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.0</version>
+        <version>3.2.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-<<<<<<< HEAD
-    <groupId>Atu.ie</groupId>
-    <artifactId>ProcessPayment</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>ProcessPayment</name>
-    <description>ProcessPayment</description>
-=======
     <groupId>ie.atu</groupId>
-    <artifactId>Payment</artifactId>
+    <artifactId>Week11Example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Payment</name>
-    <description>Payment</description>
->>>>>>> cd6cd6b (openFeign)
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <name>Week11Example</name>
+    <description>Week11Example</description>
     <properties>
-        <java.version>23</java.version>
-<<<<<<< HEAD
-        <spring-cloud.version>2024.0.0-RC1</spring-cloud.version>
-=======
->>>>>>> cd6cd6b (openFeign)
+        <java.version>17</java.version>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.3.5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.3.232</version>
+            <scope>compile</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
@@ -50,20 +39,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<<<<<<< HEAD
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-=======
->>>>>>> cd6cd6b (openFeign)
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -75,20 +51,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-<<<<<<< HEAD
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-=======
->>>>>>> cd6cd6b (openFeign)
 
     <build>
         <plugins>
@@ -106,18 +68,5 @@
             </plugin>
         </plugins>
     </build>
-<<<<<<< HEAD
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-=======
->>>>>>> cd6cd6b (openFeign)
 
 </project>
